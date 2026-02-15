@@ -1,0 +1,259 @@
+Test 1: SUM MATRIX (true)
+input:
+matrix A ( 2x2 ):
+1 2
+3 4
+
+matrix B ( 2x2 ):
+5 6
+7 8
+
+Expected output:
+summatrix (2x2):
+6 8
+10 12
+________________________________________________________________________________
+Test 2: SUM MATRIX (false)
+input:
+matrix A(2x3):
+1 2 3
+4 5 6
+
+matrix B(2x2):
+1 2
+3 4
+
+Expected output:
+Error: size do matrix brabar nist.
+________________________________________________________________________________
+Test 3: TAFRIGH MATRIX (true)
+input:
+matrix A (2x2):
+1 2
+3 4
+
+matrix B(2x2):
+5 6 
+7 8
+
+Expected output:
+tafrigh matrix(2x2):
+4 4
+4 4
+________________________________________________________________________________
+Test 4: TAFRIGH MATRIX (false)
+input:
+matrix A (2x3):
+1 2 3
+4 5 6
+
+matrix B(2x2):
+1 2
+3 4
+
+Expected output:
+Error:size do matrix brabar nist.
+________________________________________________________________________________
+Test 5: ZARB MATRIX (true)
+input:
+matrix A (2x3):
+1 2 3
+4 5 6
+
+matrix B(3x2):
+1 2
+3 4
+5 6
+
+Expected output:
+zarb matrix(2x2):
+22 28
+49 64
+________________________________________________________________________________
+Test 6: ZARB MATRIX(false)
+input:
+matrix A(2x3):
+1 2 3
+4 5 6
+
+matrix B(2x3):
+1 2 3
+4 5 6
+
+Expected output:
+Error:tol matrix A ba arze matrix B brabar nist.
+________________________________________________________________________________
+Test 7:SCALER MATRIX
+input:
+matrix A(2x2):
+1 2
+3 4
+
+scaler number:
+2
+
+Expected output:
+scaler matrix(2x2):
+2 4
+6 8
+________________________________________________________________________________
+Test 8:TRANAHADE MATRIX
+input:
+matrix A(2x2):
+1 2
+3 4
+
+Expected output:
+tranahade matrix(2x2):
+1 3
+2 4
+________________________________________________________________________________
+Test 9:DETERMINAN MATRIX(true)
+input:
+matrix A(2x2):
+1 2
+3 4
+
+Expected output:
+determinan matrix(2x2):
+-2
+________________________________________________________________________________
+Test 10:DETERMINAN MATRIX(false)
+input:
+matrix A(2x3):
+1 2 3
+4 5 6
+
+Expected output:
+Error:matrix morabaii nist.
+________________________________________________________________________________
+Test 11:MAKOUS MATRIX(true)
+input:
+matrix A(2x2):
+1 2
+3 4
+
+Expected output:
+makous matrix(2x2):
+-2 1
+1.5 -0.5
+________________________________________________________________________________
+Test 12:MAKOUS MATRIX(false)
+input:
+matrix A(2x3):
+1 2 3
+4 5 6
+
+Expected output:
+Error:makous faghat braye matrix morabaii ast.
+________________________________________________________________________________
+Test 13:SUM BORDAR(true)
+input:
+bordar D(2):
+1 2
+
+bordar G(2):
+3 4
+
+Expected output:
+sum bordar(2):
+4 6
+________________________________________________________________________________
+Test 14: SUM BORDAR(false)
+input:
+bordar D(2):
+1 2
+
+bordar G(3):
+3 4 5
+
+Expected output:
+Error:size do bordar brabar nist.
+________________________________________________________________________________
+Test 15:TAFRIGH BORDAR(true)
+input:
+bordar D(2):
+1 2
+
+bordar G(2):
+3 4
+
+Expected output:
+tafrigh bordar(2):
+2 2
+________________________________________________________________________________
+Test 16:TAFRIGH BORDAR(false)
+input:
+bordar D(2):
+1 2
+
+bordar G(3):
+3 4 5
+
+Expected output:
+Error:size do bordar brabar nist.
+________________________________________________________________________________
+Test 17:SCALER BORDAR
+input:
+bordar D(2):
+1 2
+
+scaler number:
+2
+
+Expected output:
+scaler bordar(2):
+2 4
+________________________________________________________________________________
+Test 18:ZARB DAKHELI BORDAR(true)
+input:
+bordar D(2):
+1 2
+
+bordar G(2):
+3 4
+
+Expected output:
+zarb dakheli bordar:
+11
+________________________________________________________________________________
+Test 19:ZARB KHAREJI BORDAR(true)
+input:
+bordar D(3):
+1 2 3
+
+bordar G(3):
+4 5 6
+
+Expected output:
+zarb khareji bordar(3):
+-3 6 -3
+________________________________________________________________________________
+Test 20: ZARB KHAREJI BORDAR(false)
+input:
+bordar D(2):
+1 2
+
+bordar G(2):
+3 4
+
+Expected output:
+Error:size do bordar brabar 3 nist.
+________________________________________________________________________________
+Test 21: SIZE BORDAR
+input:
+bordar D(2):
+1 2
+
+Expected output:
+size bordar:
+radical 5
+________________________________________________________________________________
+Test 22:NORMAL SAZI BORDAR(true)
+input:
+bordar D(2):
+1 2
+
+Expected output:
+normal sazi bordar(2):
+0 1
